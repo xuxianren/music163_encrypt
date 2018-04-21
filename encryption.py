@@ -63,7 +63,7 @@ def music163_encryt(text):
     :param text: 明文
     :return: 加密后的参数
     """
-    assert isinstance(text, str), "密文必需为字符串类型"
+    assert isinstance(text, str), "明文必需为字符串类型"
     first_aes_key = '0CoJUm6Qyw8W8jud'
     second_aes_key = create_aes_key(16)
     second_aes_key = b'F'*16
