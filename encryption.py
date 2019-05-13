@@ -9,7 +9,7 @@ import random
 post参数：params encSecKey
 加密流程:
     ①将明文先AES加密一次（密钥'0CoJUm6Qyw8W8jud'），
-	②随机生成一个16位的密钥，对上一步结果进行AES加密，得到POST参数里的param。
+    ②随机生成一个16位的密钥，对上一步结果进行AES加密，得到POST参数里的param。
     ③对随机密钥进行RSA加密，得到POST参数里的encSecKey。
 
 RSA:明文:   SecKey(随机生成的16位字符串)
